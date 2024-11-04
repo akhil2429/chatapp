@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "A Node.js application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "aws-sdk": "^2.1687.0",
+    "axios": "^1.7.7",
+    "canvas": "^2.11.2",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
